@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/.pio/build/bluepill_f103c8/firmware.elf",
+            "projectEnvName": "bluepill_f103c8",
+            "toolchainBinDir": "C:/Users/User/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/User/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/.pio/build/bluepill_f103c8/firmware.elf",
+            "projectEnvName": "bluepill_f103c8",
+            "toolchainBinDir": "C:/Users/User/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/User/.platformio/platforms/ststm32/misc/svd/STM32F103xx.svd"
+        }
+    ]
+}

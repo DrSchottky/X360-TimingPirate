@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/include",
+                "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/src",
+                "C:/Users/User/.platformio/packages/framework-libopencm3",
+                "C:/Users/User/.platformio/packages/framework-libopencm3/include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/include",
+                    "C:/Users/User/Documents/PlatformIO/Projects/210815-120223-libopencm3-usb-cdcacm/src",
+                    "C:/Users/User/.platformio/packages/framework-libopencm3",
+                    "C:/Users/User/.platformio/packages/framework-libopencm3/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "STM32F1",
+                "STM32F103xB",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "compilerPath": "C:/Users/User/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
